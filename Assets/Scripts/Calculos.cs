@@ -6,10 +6,11 @@ public class Calculos : MonoBehaviour
 {
     public int Num1;
     public int Num2;
+    public int resultado;
     // Start is called before the first frame update
     void Start()
     {
-        int resultado = (Num1 + Num2);
+         resultado = (Num1 + Num2);
         Debug.Log(resultado);
     }
 
